@@ -17,10 +17,9 @@ def respond():
     file_m = file_arr[-1]
     file_id = file_m.file_id
     print(file_id)
-    x = bot.get_file(file_id=file_id)
     chat_id = update.message.chat.id
     msg_id = update.message.message_id
-    bot.send_photo(chat_id=chat_id, photo=x, reply_to_message_id=msg_id)
+    bot.send_photo(chat_id=chat_id, photo=file_id, reply_to_message_id=msg_id)
 
     # text = update.message.text.encode('utf-8').decode()
     # print("got text message :", text)
