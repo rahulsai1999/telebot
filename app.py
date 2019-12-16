@@ -13,12 +13,12 @@ app = Flask(__name__)
 @app.route('/{}'.format(TOKEN), methods=['POST'])
 def respond():
     update = telegram.Update.de_json(request.get_json(force=True), bot)
-    file_id = update.message.file.id
+    file_id = update.message.photo.file_id
     x = bot.get_file(file_id=file_id)
     chat_id = update.message.chat.id
     msg_id = update.message.message_id
     bot.send_photo(chat_id=chat_id, photo=x, reply_to_message_id=msg_id)
-    
+
     # text = update.message.text.encode('utf-8').decode()
     # print("got text message :", text)
     # if text == "/start":
