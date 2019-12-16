@@ -13,7 +13,7 @@ app = Flask(__name__)
 @app.route('/{}'.format(TOKEN), methods=['POST'])
 def respond():
     update = telegram.Update.de_json(request.get_json(force=True), bot)
-    file_id = update.message.photo.file_id
+    file_id = update.message.photo[-1].file_id
     x = bot.get_file(file_id=file_id)
     chat_id = update.message.chat.id
     msg_id = update.message.message_id
