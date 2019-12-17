@@ -56,9 +56,11 @@ def set_webhook():
 
 @app.route('/files', methods=['GET'])
 def get_files():
+    x = ""
     for root, dirs, files in os.walk("./photos"):
         for filename in files:
-            print(filename, sep="\n")
+            x = x + filename + "<br>"
+    return x
 
 
 @app.route('/')
