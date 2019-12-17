@@ -17,6 +17,7 @@ def respond():
     file_m = file_arr[-1]
     file_id = file_m.file_id
     print(file_id)
+    bot.get_file(file_id=file_id).download(custom_path="photos/" + file_id)
     chat_id = update.message.chat.id
     msg_id = update.message.message_id
     bot.send_photo(chat_id=chat_id, photo=file_id, reply_to_message_id=msg_id)
@@ -53,9 +54,16 @@ def set_webhook():
         return "webhook setup failed"
 
 
+@app.route('/files', methods=['GET'])
+def get_files():
+    for root, dirs, files in os.walk("./photos"):
+        for filename in files:
+            print(filename, sep="\n")
+
+
 @app.route('/')
 def index():
-    return '.'
+    return 'Server OK'
 
 
 if __name__ == '__main__':
