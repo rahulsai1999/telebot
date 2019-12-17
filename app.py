@@ -18,6 +18,13 @@ def respond():
     file_id = file_m.file_id
     print(file_id)
     bot.get_file(file_id=file_id).download(custom_path="photos/" + file_id)
+
+    # process the photo here
+
+    # delete photo from directory
+    os.remove('photos/' + file_id)
+
+    # send user output from here
     chat_id = update.message.chat.id
     msg_id = update.message.message_id
     bot.send_photo(chat_id=chat_id, photo=file_id, reply_to_message_id=msg_id)
