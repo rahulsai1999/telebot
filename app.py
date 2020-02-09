@@ -4,6 +4,7 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array
 import re
 import os
 import telegram
+import requests
 
 TOKEN = os.environ['token']
 url = os.environ['url']
@@ -45,6 +46,15 @@ def respond():
     bot.sendMessage(chat_id=chat_id, text="Aristolochia bractiata - 78.5%",
                     reply_to_message_id=msg_id)
     # bot.send_photo(chat_id=chat_id, photo=file_id, reply_to_message_id=msg_id)
+
+    text=update.message.text.encode('utf-8').decode()
+    if text=='/weather':
+        x=telegram.Location()
+        url="http://api.openweathermap.org/data/2.5/weather?lat="+x.latitude+"&lon="+x.longitude+"&appid=e64631cab1fe775900d1a6a2b809eda6";
+        r=requests.get(url)
+        r=r.json()
+        print(r["main"])
+        
 
     # text = update.message.text.encode('utf-8').decode()
     # print("got text message :", text)
