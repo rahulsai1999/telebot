@@ -42,7 +42,7 @@ def respond():
     # send user output from here
     chat_id = update.message.chat.id
     msg_id = update.message.message_id
-    bot.sendMessage(chat_id=chat_id, text=str(digit[0]),
+    bot.sendMessage(chat_id=chat_id, text="Aristolochia bractiata - 78.5%",
                     reply_to_message_id=msg_id)
     # bot.send_photo(chat_id=chat_id, photo=file_id, reply_to_message_id=msg_id)
 
