@@ -2,6 +2,8 @@ from flask import Flask, request
 import re
 import os
 import telegram
+import requests
+import json
 
 TOKEN = os.environ['token']
 url = os.environ['url']
@@ -24,8 +26,13 @@ def respond():
         an avatar for your name. """
         bot.sendMessage(chat_id=chat_id, text=bot_welcome, reply_to_message_id=msg_id)
     
-    elif text=="/weather":
-        weather="Weather in Vellore is 31' C currently"
+    elif text=="/temp":
+        x=telegram.Location()
+        url="http://api.openweathermap.org/data/2.5/weather?lat="+x.latitude+"&lon="+x.longitude+"&appid=e64631cab1fe775900d1a6a2b809eda6";
+        r=requests.get(url)
+        r=r.json()
+        r=json.loads(r)
+        weather=r["main"]["temp"]
         bot.sendMessage(chat_id=chat_id, text=weather, reply_to_message_id=msg_id)
 
 
