@@ -2,5 +2,5 @@ flask
 python-telegram-bot
 requests
 gunicorn
-tensorflow
+# tensorflow
 pillow

@@ -23,6 +23,11 @@ def respond():
         generate cool looking avatars based on the name you enter so please enter a name and the bot will reply with 
         an avatar for your name. """
         bot.sendMessage(chat_id=chat_id, text=bot_welcome, reply_to_message_id=msg_id)
+    
+    elif text=="/weather":
+        weather="Weather in Vellore is 31' C currently"
+        bot.sendMessage(chat_id=chat_id, text=weather, reply_to_message_id=msg_id)
+
 
     else:
         try:
