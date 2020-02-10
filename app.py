@@ -27,8 +27,7 @@ def respond():
         bot.sendMessage(chat_id=chat_id, text=bot_welcome, reply_to_message_id=msg_id)
     
     elif text=="/temp":
-        x=telegram.Location()
-        url="http://api.openweathermap.org/data/2.5/weather?lat="+x.latitude+"&lon="+x.longitude+"&appid=e64631cab1fe775900d1a6a2b809eda6";
+        url="https://api.openweathermap.org/data/2.5/weather?q=Vellore&appid=e64631cab1fe775900d1a6a2b809eda6"
         r=requests.get(url)
         r=r.json()
         r=json.loads(r)
