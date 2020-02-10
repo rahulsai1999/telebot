@@ -19,7 +19,9 @@ def respond():
     msg_id = update.message.message_id
 
     text = update.message.text.encode('utf-8').decode()
+    
     print("got text message :", text)
+    
     if text == "/start":
         bot_welcome = """Welcome to Krishi bot, the bot can help in many ways. Start by typing /temp to know the current temperature."""
         bot.sendMessage(chat_id=chat_id, text=bot_welcome, reply_to_message_id=msg_id)
@@ -28,7 +30,7 @@ def respond():
         url="https://api.openweathermap.org/data/2.5/weather?q=Vellore&appid=e64631cab1fe775900d1a6a2b809eda6"
         r=requests.get(url)
         r=r.json()
-        weather=format(int(r["main"]["temp"])-273.16,'.1f') + char(176) +"C"
+        weather=format(int(r["main"]["temp"])-273.16,'.1f') + chr(176) +"C"
         bot.sendMessage(chat_id=chat_id, text=weather, reply_to_message_id=msg_id)
 
 
