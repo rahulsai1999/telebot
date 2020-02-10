@@ -32,10 +32,10 @@ def respond():
     print(file_id)
     bot.get_file(file_id=file_id).download(custom_path="images/" + file_id)
 
-    # process the photo here
-    filename = "images/" + file_id
-    img = load_image(filename)
-    digit = model.predict_classes(img)
+    # # process the photo here
+    # filename = "images/" + file_id
+    # img = load_image(filename)
+    # digit = model.predict_classes(img)
 
     # delete photo from directory
     os.remove('images/' + file_id)
@@ -45,6 +45,7 @@ def respond():
     msg_id = update.message.message_id
     bot.sendMessage(chat_id=chat_id, text="Aristolochia bractiata - 78.5%",
                     reply_to_message_id=msg_id)
+    
     # bot.send_photo(chat_id=chat_id, photo=file_id, reply_to_message_id=msg_id)
 
     text=update.message.text.encode('utf-8').decode()
