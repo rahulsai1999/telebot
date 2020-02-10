@@ -21,30 +21,19 @@ def respond():
     text = update.message.text.encode('utf-8').decode()
     print("got text message :", text)
     if text == "/start":
-        bot_welcome = """Welcome to coolAvatar bot, the bot is using the service from http://avatars.adorable.io/ to 
-        generate cool looking avatars based on the name you enter so please enter a name and the bot will reply with 
-        an avatar for your name. """
+        bot_welcome = """Welcome to Krishi bot, the bot can help in many ways. Start by typing /temp to know the current temperature."""
         bot.sendMessage(chat_id=chat_id, text=bot_welcome, reply_to_message_id=msg_id)
     
     elif text=="/temp":
         url="https://api.openweathermap.org/data/2.5/weather?q=Vellore&appid=e64631cab1fe775900d1a6a2b809eda6"
         r=requests.get(url)
         r=r.json()
-        weather=r["main"]["temp"]
+        weather=str(int(r["main"]["temp"])-273.16) + "' C"
         bot.sendMessage(chat_id=chat_id, text=weather, reply_to_message_id=msg_id)
 
 
     else:
-        try:
-            # clear the message we got from any non alphabets
-            text = re.sub(r"\W", "_", text)
-            url = "https://api.adorable.io/avatars/285/{}.png".format(text.strip())
-            # note that you can send photos by url and telegram will fetch it for you
-            bot.sendPhoto(chat_id=chat_id, photo=url, reply_to_message_id=msg_id)
-        except Exception:
-            bot.sendMessage(chat_id=chat_id,
-                            text="There was a problem in the name you used, please enter different name",
-                            reply_to_message_id=msg_id)
+        bot.sendMessage(chat_id=chat_id,text="Please try different command",reply_to_message_id=msg_id)
 
     return 'ok'
 
