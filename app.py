@@ -28,7 +28,7 @@ def respond():
         url="https://api.openweathermap.org/data/2.5/weather?q=Vellore&appid=e64631cab1fe775900d1a6a2b809eda6"
         r=requests.get(url)
         r=r.json()
-        weather=str(int(r["main"]["temp"])-273.16) + "' C"
+        weather=format(int(r["main"]["temp"])-273.16,'.1f') + char(176) +"C"
         bot.sendMessage(chat_id=chat_id, text=weather, reply_to_message_id=msg_id)
 
 
