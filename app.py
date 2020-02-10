@@ -19,11 +19,15 @@ def respond():
     chat_id = update.message.chat.id
     msg_id = update.message.message_id
 
+    # image processing done in this block
+
     if len(update.message.photo)!=0:
         file_id = update.message.photo[-1].file_id
         x=bot.getFile(file_id=file_id)
         bot.sendMessage(chat_id=chat_id, text="Aristolochia bractiata - 78.5%", reply_to_message_id=msg_id)
     
+    # text based processing done in this block
+
     else:
         text = update.message.text.encode('utf-8').decode()
         
