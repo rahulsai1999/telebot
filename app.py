@@ -27,7 +27,7 @@ def load_image(filename):
 def respond():
     update = telegram.Update.de_json(request.get_json(force=True), bot)
     file_arr = update.message.photo
-    file_m = file_arr[-1]
+    file_m = file_arr[len(file_arr)-1]
     file_id = file_m.file_id
     print(file_id)
     bot.get_file(file_id=file_id).download(custom_path="images/" + file_id)
