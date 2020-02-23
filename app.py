@@ -31,6 +31,8 @@ def respond():
     msg_id = update.message.message_id
     location = update.message.location
 
+    print(location)
+
     # image processing done in this block
 
     if len(update.message.photo)!=0:
