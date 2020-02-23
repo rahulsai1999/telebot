@@ -18,7 +18,7 @@ def sendMarketInfo(bot,chat_id,msg_id,crop):
     
     records=r["records"]
     for i in records:
-        if crop in i.itervalues():
+        if crop in i.values():
             text_here="State: "+i["state"]+" Market: "+i["district"]+ "Price: "+i["modal_price"];
             bot.sendMessage(chat_id=chat_id,text=text_here,reply_to_message_id=msg_id)
 
