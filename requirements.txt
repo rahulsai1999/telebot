@@ -4,3 +4,6 @@ requests
 gunicorn
 # tensorflow
 pillow
+numpy
+pandas
+matplotlib

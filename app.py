@@ -1,5 +1,6 @@
 from flask import Flask, request
 from util import sendMarketInfo, temperature_api, default_message, start_message
+from visualise import get_chart
 
 import re
 import os
@@ -44,6 +45,9 @@ def respond():
 
         elif text.lower().startswith("what is the price of"):
             sendMarketInfo(bot, chat_id, msg_id, text)
+
+        elif text.lower().startswith("what are the popular crops"):
+            get_chart(bot, chat_id, msg_id, "VELLORE", 10)
         else:
             default_message(bot, chat_id, msg_id)
 

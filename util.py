@@ -3,7 +3,11 @@ import json
 
 
 def start_message(bot, chat_id, msg_id):
-    bwelcome = """Welcome to Krishi bot, the bot can help in many ways. Start by typing /temp to know the current temperature."""
+    bwelcome = """Welcome to Krishi bot, the bot can help in many ways.
+    \nAvailable Commands: 
+    \n/temp - to know the current temperature.
+    \nWhat is the price of {} - to know the price of a commodity
+    \nWhat are the popular crops in my area - to visualise the amount of crops in area"""
     bot.sendMessage(chat_id=chat_id, text=bwelcome, reply_to_message_id=msg_id)
 
 
