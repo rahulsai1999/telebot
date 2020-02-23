@@ -58,9 +58,9 @@ def respond():
             weather=format(int(r["main"]["temp"])-273.16,'.1f') + chr(176) +"C"
             bot.sendMessage(chat_id=chat_id, text=weather, reply_to_message_id=msg_id)
         
-        elif text.startswith("/market/"):
-            spl=text.split("/")
-            crop=spl[2]
+        elif text.startswith("what is the price of"):
+            spl=text.split(" ")[5:]
+            crop=' '.join(spl).title().strip()
             sendMarketInfo(bot,chat_id,msg_id,crop) 
         else:
             bot.sendMessage(chat_id=chat_id,text="Please try different command",reply_to_message_id=msg_id)
