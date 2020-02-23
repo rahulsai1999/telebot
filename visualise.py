@@ -20,5 +20,5 @@ def get_chart(bot, chat_id, msg_id, district, limit):
     ax1.pie(prod, labels=crop_name, autopct='%1.1f%%')
     ax1.axis('equal')
     plt.savefig('./images/temp.png')
-    bot.send_photo(chat_id=chat_id, photo="./images/temp.png",
+    bot.send_photo(chat_id=chat_id, photo=open('images/temp.png', 'rb'),
                    reply_to_message_id=msg_id)
