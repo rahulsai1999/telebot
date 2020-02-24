@@ -35,7 +35,7 @@ def temperature_api(bot, chat_id, msg_id):
     parameters = ["Location: ", "Current Temperature: ",
                   "Humidity: ", "Description: ", "Elevation: ", "Pressure: "]
     actuals = [str(r["name"]), weather, str(
-        r["main"]["humidity"]), str(r["weather"]["description"]), str(r["main"]["grnd_level"]), str(r["main"]["pressure"])]
+        r["main"]["humidity"]), str(r["weather"][0]["description"]), str(r["main"]["grnd_level"]), str(r["main"]["pressure"])]
     units = ["", "", "%", "", "m", "psi"]
 
     fin = ""
