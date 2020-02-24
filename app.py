@@ -40,7 +40,7 @@ def respond():
         if text == "/start":
             start_message(bot, chat_id, msg_id)
 
-        elif text == "/temp":
+        elif text == "/weather":
             temperature_api(bot, chat_id, msg_id)
 
         elif text.lower().startswith("what is the price of"):
