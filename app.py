@@ -47,7 +47,9 @@ def respond():
             sendMarketInfo(bot, chat_id, msg_id, text)
 
         elif text.lower().startswith("what are the popular crops"):
-            get_chart(bot, chat_id, msg_id, "VELLORE", 10)
+            dist = text.strip().split(" ")[6]
+            dist = dist.upper()
+            get_chart(bot, chat_id, msg_id, dist, 10)
         else:
             default_message(bot, chat_id, msg_id)
 

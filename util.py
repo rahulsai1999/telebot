@@ -7,7 +7,7 @@ def start_message(bot, chat_id, msg_id):
     \nAvailable Commands: 
     \n/weather - to know the current weather conditions
     \nWhat is the price of {} - to know the price of a commodity
-    \nWhat are the popular crops in my area - to visualise the amount of crops in area"""
+    \nWhat are the popular crops in {} - to visualise the amount of crops in specified area"""
     bot.sendMessage(chat_id=chat_id, text=bwelcome, reply_to_message_id=msg_id)
 
 
