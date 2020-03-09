@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-data = pd.read_csv("data/apy.csv")
+data = pd.read_csv("apy.csv")
 
 
 def start_message(bot, chat_id, msg_id):
