@@ -124,7 +124,7 @@ def return_crops(state, dis, season):
     returnstr = "Crops Recommended to grow in your area:"
     l = min(10, len(ScoredList))
     for i in range(0, l):
-        returnstr = returnstr + "\n" + str(i+1) + str(ScoredList[i][1])
+        returnstr = returnstr + "\n" + str(i+1) + ". " + str(ScoredList[i][1])
     return returnstr
 
 
