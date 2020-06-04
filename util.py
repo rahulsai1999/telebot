@@ -121,11 +121,10 @@ def return_crops(state, dis, season):
         if(ScoredList[i][0] <= 20):
             break
     ScoredList = ScoredList[i:]
-    returnstr = "Crops Recommended to grow in", dis+', '+state, "in", season, "are:"
+    returnstr = "Crops Recommended to grow in your area:"
     l = min(10, len(ScoredList))
     for i in range(0, l):
-        print(ScoredList[i][1])
-        returnstr = returnstr + "\n" + str(ScoredList[i][1])
+        returnstr = returnstr + "\n" + str(i+1) + str(ScoredList[i][1])
     return returnstr
 
 
