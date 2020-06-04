@@ -1,0 +1,732 @@
+{
+  "Arcanut (Processed)": [
+    0.065065220958848,
+    ["Saved_Model/Arcanut (Processed)_SVR", 0.06959864696678783],
+    ["Saved_Model/Arcanut (Processed)_POLY", 0.09652787302466913],
+    ["Saved_Model/Arcanut (Processed)_NN", 0.05713861957188639],
+    ["Saved_Model/Arcanut (Processed)_XGB", 0.004601223190796602],
+    ["Saved_Model/Arcanut (Processed)_GBM", 0.09745974204010002]
+  ],
+  "Arecanut": [
+    2.1307276592234916,
+    ["Saved_Model/Arecanut_XGB", 0.6931611647149468],
+    ["Saved_Model/Arecanut_GBM", 0.48983587011346813]
+  ],
+  "Arhar&Tur": [
+    0.11459426589699964,
+    ["Saved_Model/Arhar&Tur_SVR", 0.12219456711977739],
+    ["Saved_Model/Arhar&Tur_POLY", 0.1593877891021745],
+    ["Saved_Model/Arhar&Tur_NN", 0.12291668059931114],
+    ["Saved_Model/Arhar&Tur_XGB", 0.08454803483406396],
+    ["Saved_Model/Arhar&Tur_GBM", 0.0839242578296712]
+  ],
+  "Atcanut (Raw)": [
+    1.4919273752144573,
+    ["Saved_Model/Atcanut (Raw)_NN", 1.4702091930355579],
+    ["Saved_Model/Atcanut (Raw)_XGB", 0.07109169267924348]
+  ],
+  "Bajra": [
+    0.19335508925109937,
+    ["Saved_Model/Bajra_SVR", 0.18999211243354508],
+    ["Saved_Model/Bajra_POLY", 0.2916175901195121],
+    ["Saved_Model/Bajra_NN", 0.19917349790300923],
+    ["Saved_Model/Bajra_XGB", 0.1549012485410374],
+    ["Saved_Model/Bajra_GBM", 0.13109099725839302]
+  ],
+  "Banana": [
+    119.13743164141383,
+    ["Saved_Model/Banana_XGB", 74.77869722327424],
+    ["Saved_Model/Banana_GBM", 74.10302884373513]
+  ],
+  "Barley": [
+    0.20525680884676772,
+    ["Saved_Model/Barley_SVR", 0.2536503806106959],
+    ["Saved_Model/Barley_POLY", 0.3476090172692578],
+    ["Saved_Model/Barley_NN", 0.2103230557796752],
+    ["Saved_Model/Barley_XGB", 0.10958766087884929],
+    ["Saved_Model/Barley_GBM", 0.10511392969536058]
+  ],
+  "Bean": [
+    0.006571697377622854,
+    ["Saved_Model/Bean_SVR", 0.0018550557477893163],
+    ["Saved_Model/Bean_POLY", 0.0029121315724874117],
+    ["Saved_Model/Bean_NN", 0.024532464733944014],
+    ["Saved_Model/Bean_XGB", 0.0016037372678717556],
+    ["Saved_Model/Bean_GBM", 0.001955097566021773]
+  ],
+  "Beans & Mutter(Vegetable)": [
+    1.8145546028237398,
+    ["Saved_Model/Beans & Mutter(Vegetable)_SVR", 1.7223459268761898],
+    ["Saved_Model/Beans & Mutter(Vegetable)_XGB", 0.9768797546975106]
+  ],
+  "Bhindi": [
+    26.197363053532627,
+    ["Saved_Model/Bhindi_SVR", 7.886289383930001],
+    ["Saved_Model/Bhindi_NN", 3.822137755226759],
+    ["Saved_Model/Bhindi_XGB", 3.9684976580154263],
+    ["Saved_Model/Bhindi_GBM", 5.188935220643697]
+  ],
+  "Bitter Gourd": [
+    0.37920207387337873,
+    ["Saved_Model/Bitter Gourd_SVR", 0.18008454029081777],
+    ["Saved_Model/Bitter Gourd_POLY", 0.7379514439637452],
+    ["Saved_Model/Bitter Gourd_NN", 0.24539273194787156],
+    ["Saved_Model/Bitter Gourd_XGB", 0.12342125335055698],
+    ["Saved_Model/Bitter Gourd_GBM", 0.6091603998139021]
+  ],
+  "Black pepper": [
+    0.5898631847257255,
+    ["Saved_Model/Black pepper_SVR", 0.8196772003874756],
+    ["Saved_Model/Black pepper_NN", 0.8141078160403817],
+    ["Saved_Model/Black pepper_XGB", 0.14544005030845247],
+    ["Saved_Model/Black pepper_GBM", 0.1561529685059431]
+  ],
+  "Blackgram": [
+    0.017526208688452286,
+    ["Saved_Model/Blackgram_SVR", 0.014514158760248422],
+    ["Saved_Model/Blackgram_POLY", 0.01196533698257994],
+    ["Saved_Model/Blackgram_NN", 0.027093195561359917],
+    ["Saved_Model/Blackgram_XGB", 0.021163947957535578],
+    ["Saved_Model/Blackgram_GBM", 0.012894404180537573]
+  ],
+  "Bottle Gourd": [
+    0.1172875261398647,
+    ["Saved_Model/Bottle Gourd_SVR", 0.010578695151301503],
+    ["Saved_Model/Bottle Gourd_POLY", 0.0010176191454202988],
+    ["Saved_Model/Bottle Gourd_NN", 0.1300875957656301],
+    ["Saved_Model/Bottle Gourd_XGB", 0.0009155057227539389],
+    ["Saved_Model/Bottle Gourd_GBM", 0.44383821491421765]
+  ],
+  "Brinjal": [
+    22.96959778821697,
+    ["Saved_Model/Brinjal_SVR", 19.828687067997496],
+    ["Saved_Model/Brinjal_XGB", 13.878752638370258],
+    ["Saved_Model/Brinjal_GBM", 15.973809659142647]
+  ],
+  "Cabbage": [
+    58.20842328344527,
+    ["Saved_Model/Cabbage_SVR", 38.237082242799474],
+    ["Saved_Model/Cabbage_POLY", 39.506569050573624],
+    ["Saved_Model/Cabbage_XGB", 40.46015813482341]
+  ],
+  "Cardamom": [
+    0.11147740146078555,
+    ["Saved_Model/Cardamom_SVR", 0.1145112231598929],
+    ["Saved_Model/Cardamom_POLY", 0.12114855437826945],
+    ["Saved_Model/Cardamom_NN", 0.10930126698388257],
+    ["Saved_Model/Cardamom_XGB", 0.1120924529686291],
+    ["Saved_Model/Cardamom_GBM", 0.10033350981325369]
+  ],
+  "Carrot": [
+    45218.55279199884,
+    ["Saved_Model/Carrot_SVR", 0.029336409687177267],
+    ["Saved_Model/Carrot_NN", 0.11526525389754508],
+    ["Saved_Model/Carrot_XGB", 0.21140599755341533],
+    ["Saved_Model/Carrot_GBM", 10.414237662222735]
+  ],
+  "Cashewnut Processed": [
+    0.01346230755665776,
+    ["Saved_Model/Cashewnut Processed_SVR", 0.0026451111389948503],
+    ["Saved_Model/Cashewnut Processed_POLY", 0.02787819120275293],
+    ["Saved_Model/Cashewnut Processed_NN", 0.03287661666795219],
+    ["Saved_Model/Cashewnut Processed_XGB", 0.0012864032250342672],
+    ["Saved_Model/Cashewnut Processed_GBM", 0.0026252155485545813]
+  ],
+  "Cashewnut Raw": [
+    0.08108355494738675,
+    ["Saved_Model/Cashewnut Raw_SVR", 0.0675074784946414],
+    ["Saved_Model/Cashewnut Raw_POLY", 0.07022147644574141],
+    ["Saved_Model/Cashewnut Raw_NN", 0.11580250491645083],
+    ["Saved_Model/Cashewnut Raw_XGB", 0.08758053597655202],
+    ["Saved_Model/Cashewnut Raw_GBM", 0.06430577890354809]
+  ],
+  "Cashewnut": [
+    6114.4184549143265,
+    ["Saved_Model/Cashewnut_SVR", 0.04135886380248079],
+    ["Saved_Model/Cashewnut_POLY", 379.9853941889715],
+    ["Saved_Model/Cashewnut_NN", 216.02824663092247],
+    ["Saved_Model/Cashewnut_XGB", 0.036188194698349586]
+  ],
+  "Castor seed": [
+    0.22804997615104777,
+    ["Saved_Model/Castor seed_SVR", 0.2222522974702238],
+    ["Saved_Model/Castor seed_POLY", 0.2890738486262813],
+    ["Saved_Model/Castor seed_NN", 0.23797996624019746],
+    ["Saved_Model/Castor seed_XGB", 0.20874632983922325],
+    ["Saved_Model/Castor seed_GBM", 0.1821974385793131]
+  ],
+  "Cauliflower": [
+    7.336455544465359,
+    ["Saved_Model/Cauliflower_SVR", 7.254640393968746],
+    ["Saved_Model/Cauliflower_NN", 6.1316156664534205],
+    ["Saved_Model/Cauliflower_XGB", 7.290712066500811],
+    ["Saved_Model/Cauliflower_GBM", 5.509014320805895]
+  ],
+  "Citrus Fruit": [
+    10.537616707357733,
+    ["Saved_Model/Citrus Fruit_GBM", 8.255756507390844]
+  ],
+  "Coconut": [
+    20776644.196658973,
+    ["Saved_Model/Coconut_XGB", 7465623.74230115],
+    ["Saved_Model/Coconut_GBM", 7470696.402305189]
+  ],
+  "Coffee": [
+    0.027753641030047738,
+    ["Saved_Model/Coffee_SVR", 0.043306148164949904],
+    ["Saved_Model/Coffee_POLY", 0.06776721488972577],
+    ["Saved_Model/Coffee_NN", 0.0005279704726061677],
+    ["Saved_Model/Coffee_XGB", 0.01971224048791586],
+    ["Saved_Model/Coffee_GBM", 0.007454631135041]
+  ],
+  "Colocosia": [
+    0.00313559612056724,
+    ["Saved_Model/Colocosia_SVR", 4.8927450320444895e-5],
+    ["Saved_Model/Colocosia_POLY", 0.00028284542711004237],
+    ["Saved_Model/Colocosia_NN", 0.015090515339676458],
+    ["Saved_Model/Colocosia_XGB", 0.0001940519462887688],
+    ["Saved_Model/Colocosia_GBM", 6.164043944048606e-5]
+  ],
+  "Cond-spcs other": [
+    0.14986588606499435,
+    ["Saved_Model/Cond-spcs other_SVR", 0.18148515809328833],
+    ["Saved_Model/Cond-spcs other_POLY", 0.18910602179961214],
+    ["Saved_Model/Cond-spcs other_NN", 0.16759553039025457],
+    ["Saved_Model/Cond-spcs other_XGB", 0.06651253148882302],
+    ["Saved_Model/Cond-spcs other_GBM", 0.14463018855299367]
+  ],
+  "Coriander": [
+    0.0401442918848174,
+    ["Saved_Model/Coriander_SVR", 0.042805886439643684],
+    ["Saved_Model/Coriander_POLY", 0.054637250927771705],
+    ["Saved_Model/Coriander_NN", 0.04674961005294675],
+    ["Saved_Model/Coriander_XGB", 0.02779182599130395],
+    ["Saved_Model/Coriander_GBM", 0.02873688601242091]
+  ],
+  "Cotton(lint)": [
+    12.73540396605163,
+    ["Saved_Model/Cotton(lint)_XGB", 4.891967886386158],
+    ["Saved_Model/Cotton(lint)_GBM", 4.487250420901544]
+  ],
+  "Cowpea(Lobia)": [
+    0.053155815509901436,
+    ["Saved_Model/Cowpea(Lobia)_SVR", 0.05315282020479009],
+    ["Saved_Model/Cowpea(Lobia)_POLY", 0.057314262179911465],
+    ["Saved_Model/Cowpea(Lobia)_NN", 0.06555570365286442],
+    ["Saved_Model/Cowpea(Lobia)_XGB", 0.03871418057811005],
+    ["Saved_Model/Cowpea(Lobia)_GBM", 0.05104211093383117]
+  ],
+  "Drum Stick": [
+    0.11993141303115189,
+    ["Saved_Model/Drum Stick_SVR", 0.08056311951318491],
+    ["Saved_Model/Drum Stick_POLY", 0.14033477477150427],
+    ["Saved_Model/Drum Stick_NN", 0.144627783729575],
+    ["Saved_Model/Drum Stick_XGB", 0.09480163175854016],
+    ["Saved_Model/Drum Stick_GBM", 0.13932975538295514]
+  ],
+  "Dry chillies": [
+    1.1263241797343277,
+    ["Saved_Model/Dry chillies_XGB", 0.7559987788754323],
+    ["Saved_Model/Dry chillies_GBM", 0.6659573461545766]
+  ],
+  "Dry ginger": [
+    13.97441670776574,
+    ["Saved_Model/Dry ginger_XGB", 1.9078215155400358],
+    ["Saved_Model/Dry ginger_GBM", 1.9396968760583668]
+  ],
+  "Garlic": [
+    1.5836608209798886,
+    ["Saved_Model/Garlic_NN", 1.557191864255392],
+    ["Saved_Model/Garlic_XGB", 0.8305012485613888],
+    ["Saved_Model/Garlic_GBM", 0.8358505136088251]
+  ],
+  "Ginger": [
+    6.6355676697134145,
+    ["Saved_Model/Ginger_POLY", 5.655854106700583],
+    ["Saved_Model/Ginger_XGB", 4.320348643681274]
+  ],
+  "Gram": [
+    0.07584384735583183,
+    ["Saved_Model/Gram_SVR", 0.08271046658224288],
+    ["Saved_Model/Gram_POLY", 0.1110112391514003],
+    ["Saved_Model/Gram_NN", 0.08523926376362073],
+    ["Saved_Model/Gram_XGB", 0.04850495729075697],
+    ["Saved_Model/Gram_GBM", 0.051753309991138224]
+  ],
+  "Grapes": [
+    46.475722430237454,
+    ["Saved_Model/Grapes_SVR", 29.05676042152447],
+    ["Saved_Model/Grapes_GBM", 37.57993215724785]
+  ],
+  "Groundnut": [
+    0.1674506207767321,
+    ["Saved_Model/Groundnut_SVR", 0.1773477558052447],
+    ["Saved_Model/Groundnut_POLY", 0.24474225662594787],
+    ["Saved_Model/Groundnut_NN", 0.18205773635336367],
+    ["Saved_Model/Groundnut_XGB", 0.11154447701547283],
+    ["Saved_Model/Groundnut_GBM", 0.12156087808363136]
+  ],
+  "Guar seed": [
+    1.5488969063989384,
+    ["Saved_Model/Guar seed_SVR", 0.052924545743827815],
+    ["Saved_Model/Guar seed_POLY", 0.12911442176228574],
+    ["Saved_Model/Guar seed_NN", 0.23848001076957753],
+    ["Saved_Model/Guar seed_GBM", 0.5744909889735536]
+  ],
+  "Horse-gram": [
+    0.022067029643897212,
+    ["Saved_Model/Horse-gram_SVR", 0.021760475453513964],
+    ["Saved_Model/Horse-gram_POLY", 0.02958486664071759],
+    ["Saved_Model/Horse-gram_NN", 0.025756933583359353],
+    ["Saved_Model/Horse-gram_XGB", 0.01731775517556564],
+    ["Saved_Model/Horse-gram_GBM", 0.015915117366329515]
+  ],
+  "Jack Fruit": [
+    0.05501584432020277,
+    ["Saved_Model/Jack Fruit_SVR", 0.012638956554624775],
+    ["Saved_Model/Jack Fruit_POLY", 0.026855108418709354],
+    ["Saved_Model/Jack Fruit_NN", 0.17631475459553908],
+    ["Saved_Model/Jack Fruit_XGB", 0.013618139954922327],
+    ["Saved_Model/Jack Fruit_GBM", 0.0456522620772183]
+  ],
+  "Jobster": [
+    0.003662975390388845,
+    ["Saved_Model/Jobster_SVR", 5.668934240362771e-6],
+    ["Saved_Model/Jobster_POLY", 0.0009539229358779266],
+    ["Saved_Model/Jobster_NN", 0.01729928534918004],
+    ["Saved_Model/Jobster_XGB", 4.488413196668262e-9],
+    ["Saved_Model/Jobster_GBM", 5.59952442326988e-5]
+  ],
+  "Jowar": [
+    0.21764146608463703,
+    ["Saved_Model/Jowar_SVR", 0.25968772878377266],
+    ["Saved_Model/Jowar_POLY", 0.3012388082353842],
+    ["Saved_Model/Jowar_NN", 0.25095725574664335],
+    ["Saved_Model/Jowar_XGB", 0.13120801990357517],
+    ["Saved_Model/Jowar_GBM", 0.14511551775380965]
+  ],
+  "Jute & mesta": [
+    1.6234121963888064,
+    ["Saved_Model/Jute & mesta_SVR", 0.07119390618145618],
+    ["Saved_Model/Jute & mesta_NN", 0.035733047312813876],
+    ["Saved_Model/Jute & mesta_XGB", 0.33585192660210833],
+    ["Saved_Model/Jute & mesta_GBM", 0.12444744914538462]
+  ],
+  "Jute": [
+    8.397181221720034,
+    ["Saved_Model/Jute_XGB", 4.190040236057402],
+    ["Saved_Model/Jute_GBM", 3.82889968310512]
+  ],
+  "Kapas": [
+    0.4699176958350333,
+    ["Saved_Model/Kapas_SVR", 0.40603407451088686],
+    ["Saved_Model/Kapas_NN", 0.01456852661313745],
+    ["Saved_Model/Kapas_XGB", 0.49966315840673553],
+    ["Saved_Model/Kapas_GBM", 0.06010554603313212]
+  ],
+  "Khesari": [
+    0.08467124509426753,
+    ["Saved_Model/Khesari_SVR", 0.09430970003694218],
+    ["Saved_Model/Khesari_POLY", 0.10291677311579644],
+    ["Saved_Model/Khesari_NN", 0.10169511582578948],
+    ["Saved_Model/Khesari_XGB", 0.06361506526884808],
+    ["Saved_Model/Khesari_GBM", 0.060819571223961456]
+  ],
+  "Korra": [
+    0.04972886424805213,
+    ["Saved_Model/Korra_SVR", 0.05148453415980489],
+    ["Saved_Model/Korra_POLY", 0.0548349540835646],
+    ["Saved_Model/Korra_NN", 0.06258959745446067],
+    ["Saved_Model/Korra_XGB", 0.031229014663040164],
+    ["Saved_Model/Korra_GBM", 0.04850622087939035]
+  ],
+  "Lemon": [14.448141657108573, ["Saved_Model/Lemon_XGB", 1.4611462835435929]],
+  "Lentil": [
+    0.0346834484242181,
+    ["Saved_Model/Lentil_SVR", 0.022237142268925186],
+    ["Saved_Model/Lentil_POLY", 0.029412669085277437],
+    ["Saved_Model/Lentil_NN", 0.03448421214267608],
+    ["Saved_Model/Lentil_XGB", 0.06541917400877799],
+    ["Saved_Model/Lentil_GBM", 0.02186404461543376]
+  ],
+  "Linseed": [
+    0.05536421134477808,
+    ["Saved_Model/Linseed_SVR", 0.06054368822912431],
+    ["Saved_Model/Linseed_POLY", 0.07819275413521203],
+    ["Saved_Model/Linseed_NN", 0.05909977252821089],
+    ["Saved_Model/Linseed_XGB", 0.04063042875372573],
+    ["Saved_Model/Linseed_GBM", 0.03835441307761743]
+  ],
+  "Maize": [
+    15.34860208220383,
+    ["Saved_Model/Maize_SVR", 0.9398209618505556],
+    ["Saved_Model/Maize_POLY", 8.730783040531739],
+    ["Saved_Model/Maize_XGB", 0.5079668573524341],
+    ["Saved_Model/Maize_GBM", 11.550025922442726]
+  ],
+  "Mango": [
+    9.236993370229044,
+    ["Saved_Model/Mango_XGB", 6.5152777495720375],
+    ["Saved_Model/Mango_GBM", 8.031337722583952]
+  ],
+  "Masoor": [
+    0.08560757830723752,
+    ["Saved_Model/Masoor_SVR", 0.0996286754458981],
+    ["Saved_Model/Masoor_POLY", 0.111652541437213],
+    ["Saved_Model/Masoor_NN", 0.09932083489290898],
+    ["Saved_Model/Masoor_XGB", 0.05716661117193555],
+    ["Saved_Model/Masoor_GBM", 0.06026922858823198]
+  ],
+  "Mesta": [
+    5.953428522554531,
+    ["Saved_Model/Mesta_SVR", 5.858686957616028],
+    ["Saved_Model/Mesta_XGB", 3.1887032007715144],
+    ["Saved_Model/Mesta_GBM", 4.0493150162517315]
+  ],
+  "Moong(Green Gram)": [
+    0.06171274684891968,
+    ["Saved_Model/Moong(Green Gram)_SVR", 0.06290839220739465],
+    ["Saved_Model/Moong(Green Gram)_POLY", 0.0767635978273207],
+    ["Saved_Model/Moong(Green Gram)_NN", 0.06541833695439157],
+    ["Saved_Model/Moong(Green Gram)_XGB", 0.04983037770471195],
+    ["Saved_Model/Moong(Green Gram)_GBM", 0.053643029550779556]
+  ],
+  "Moth": [
+    0.03814623937669554,
+    ["Saved_Model/Moth_SVR", 0.04004141937181412],
+    ["Saved_Model/Moth_POLY", 0.04522979475139992],
+    ["Saved_Model/Moth_NN", 0.04602981681751195],
+    ["Saved_Model/Moth_XGB", 0.032434888384720806],
+    ["Saved_Model/Moth_GBM", 0.02699527755803091]
+  ],
+  "Niger seed": [
+    12.517104093562155,
+    ["Saved_Model/Niger seed_XGB", 12.30681252657959],
+    ["Saved_Model/Niger seed_GBM", 12.434459160714468]
+  ],
+  "Oilseeds total": [
+    0.0870729053161651,
+    ["Saved_Model/Oilseeds total_SVR", 0.0681557319402499],
+    ["Saved_Model/Oilseeds total_POLY", 0.09159512854289299],
+    ["Saved_Model/Oilseeds total_NN", 0.1078943025535171],
+    ["Saved_Model/Oilseeds total_XGB", 0.1045963784353923],
+    ["Saved_Model/Oilseeds total_GBM", 0.06312298510877316]
+  ],
+  "Onion": [
+    3294.498949229984,
+    ["Saved_Model/Onion_XGB", 3274.8313334385734],
+    ["Saved_Model/Onion_GBM", 3276.273732602918]
+  ],
+  "Orange": [
+    8.644303708968945,
+    ["Saved_Model/Orange_SVR", 4.760213683320301],
+    ["Saved_Model/Orange_XGB", 6.860540284445315],
+    ["Saved_Model/Orange_GBM", 4.171323723460506]
+  ],
+  "Other  Rabi pulses": [
+    0.11406208112112307,
+    ["Saved_Model/Other  Rabi pulses_SVR", 0.09375629405209769],
+    ["Saved_Model/Other  Rabi pulses_POLY", 0.12451836149906927],
+    ["Saved_Model/Other  Rabi pulses_NN", 0.11304023986758553],
+    ["Saved_Model/Other  Rabi pulses_XGB", 0.13825988094600972],
+    ["Saved_Model/Other  Rabi pulses_GBM", 0.10073562924085311]
+  ],
+  "Other Cereals & Millets": [
+    0.12903308517766668,
+    ["Saved_Model/Other Cereals & Millets_SVR", 0.1465617218079844],
+    ["Saved_Model/Other Cereals & Millets_POLY", 0.162628517482797],
+    ["Saved_Model/Other Cereals & Millets_NN", 0.17044273555793218],
+    ["Saved_Model/Other Cereals & Millets_XGB", 0.07678749691087615],
+    ["Saved_Model/Other Cereals & Millets_GBM", 0.08874495412874366]
+  ],
+  "Other Fresh Fruits": [
+    3.160961980260737,
+    ["Saved_Model/Other Fresh Fruits_POLY", 3.091284232321616],
+    ["Saved_Model/Other Fresh Fruits_XGB", 1.6921059579147664]
+  ],
+  "Other Kharif pulses": [
+    0.06191441643934158,
+    ["Saved_Model/Other Kharif pulses_SVR", 0.0435808615203478],
+    ["Saved_Model/Other Kharif pulses_POLY", 0.05232641558102221],
+    ["Saved_Model/Other Kharif pulses_NN", 0.04650350121254395],
+    ["Saved_Model/Other Kharif pulses_XGB", 0.11688586946403352],
+    ["Saved_Model/Other Kharif pulses_GBM", 0.05027543441876042]
+  ],
+  "other misc": [
+    0.02135333475802793,
+    ["Saved_Model/other misc_SVR", 0.03880115600749244],
+    ["Saved_Model/other misc_POLY", 0.024580222521660044],
+    ["Saved_Model/other misc_NN", 0.010542191199510234],
+    ["Saved_Model/other misc_XGB", 0.005414917966163771],
+    ["Saved_Model/other misc_GBM", 0.027428186095313167]
+  ],
+  "other oilseeds": [
+    9.361294874136778,
+    ["Saved_Model/other oilseeds_SVR", 8.480069554420858],
+    ["Saved_Model/other oilseeds_NN", 8.344549698004505],
+    ["Saved_Model/other oilseeds_XGB", 9.248519014279072],
+    ["Saved_Model/other oilseeds_GBM", 6.9150264966725095]
+  ],
+  "Other Vegetables": [
+    57.78759601758151,
+    ["Saved_Model/Other Vegetables_SVR", 21.138604556168705],
+    ["Saved_Model/Other Vegetables_NN", 26.667689598987817],
+    ["Saved_Model/Other Vegetables_XGB", 2.8686316504771283],
+    ["Saved_Model/Other Vegetables_GBM", 13.138121105586993]
+  ],
+  "Paddy": [
+    0.31209534451707566,
+    ["Saved_Model/Paddy_SVR", 0.27024998441491066],
+    ["Saved_Model/Paddy_POLY", 0.46317869722305716],
+    ["Saved_Model/Paddy_NN", 0.3760028992239714],
+    ["Saved_Model/Paddy_XGB", 0.20381183267704053],
+    ["Saved_Model/Paddy_GBM", 0.2472333090463984]
+  ],
+  "Papaya": [
+    442.38230600823397,
+    ["Saved_Model/Papaya_SVR", 202.61464590039137],
+    ["Saved_Model/Papaya_XGB", 411.3292491964916],
+    ["Saved_Model/Papaya_GBM", 256.837686858164]
+  ],
+  "Peas & beans (Pulses)": [
+    0.7696175018024058,
+    ["Saved_Model/Peas & beans (Pulses)_SVR", 0.8555249771203899],
+    ["Saved_Model/Peas & beans (Pulses)_POLY", 0.9694950263850223],
+    ["Saved_Model/Peas & beans (Pulses)_NN", 0.7724461216862472],
+    ["Saved_Model/Peas & beans (Pulses)_XGB", 0.6961469920902381],
+    ["Saved_Model/Peas & beans (Pulses)_GBM", 0.5544743917301315]
+  ],
+  "Perilla": [
+    0.00968818699201934,
+    ["Saved_Model/Perilla_SVR", 0.0023684878363109934],
+    ["Saved_Model/Perilla_POLY", 0.0032065571128945818],
+    ["Saved_Model/Perilla_NN", 0.03780555969855856],
+    ["Saved_Model/Perilla_XGB", 0.002216084696581421],
+    ["Saved_Model/Perilla_GBM", 0.002844245615751142]
+  ],
+  "Pineapple": [
+    6.889115462455658,
+    ["Saved_Model/Pineapple_SVR", 3.9699337405667303],
+    ["Saved_Model/Pineapple_POLY", 5.253874767540973],
+    ["Saved_Model/Pineapple_XGB", 2.9535637375604606],
+    ["Saved_Model/Pineapple_GBM", 3.936393537647571]
+  ],
+  "Pome Fruit": [
+    45.796651713557345,
+    ["Saved_Model/Pome Fruit_XGB", 9.481752642117796],
+    ["Saved_Model/Pome Fruit_GBM", 32.82382647105488]
+  ],
+  "Pome Granet": [
+    2.1421935230474896,
+    ["Saved_Model/Pome Granet_SVR", 1.0870345084102697],
+    ["Saved_Model/Pome Granet_POLY", 0.5945814642327639],
+    ["Saved_Model/Pome Granet_XGB", 0.7297723321926326]
+  ],
+  "Potato": [
+    24.95858908168716,
+    ["Saved_Model/Potato_XGB", 11.878149673503529],
+    ["Saved_Model/Potato_GBM", 12.569686869925686]
+  ],
+  "Pulses total": [
+    0.09495773632612785,
+    ["Saved_Model/Pulses total_SVR", 0.09449105418644074],
+    ["Saved_Model/Pulses total_POLY", 0.10282771600909603],
+    ["Saved_Model/Pulses total_NN", 0.10935971301661897],
+    ["Saved_Model/Pulses total_XGB", 0.08488988522444119],
+    ["Saved_Model/Pulses total_GBM", 0.08322031319404236]
+  ],
+  "Ragi": [
+    0.21635308198323297,
+    ["Saved_Model/Ragi_SVR", 0.22590366694754618],
+    ["Saved_Model/Ragi_POLY", 0.31524732056910826],
+    ["Saved_Model/Ragi_NN", 0.2356370524937634],
+    ["Saved_Model/Ragi_XGB", 0.14886510455075533],
+    ["Saved_Model/Ragi_GBM", 0.15611226535499165]
+  ],
+  "Rajmash Kholar": [
+    0.0037550698156191206,
+    ["Saved_Model/Rajmash Kholar_SVR", 0.001148726583016139],
+    ["Saved_Model/Rajmash Kholar_POLY", 0.0013830930172876808],
+    ["Saved_Model/Rajmash Kholar_NN", 0.014563115560445738],
+    ["Saved_Model/Rajmash Kholar_XGB", 0.0007098753019964131],
+    ["Saved_Model/Rajmash Kholar_GBM", 0.0009705386153496317]
+  ],
+  "Rapeseed &Mustard": [
+    0.12998065064944922,
+    ["Saved_Model/Rapeseed &Mustard_SVR", 0.13145865153320163],
+    ["Saved_Model/Rapeseed &Mustard_POLY", 0.15837133485376523],
+    ["Saved_Model/Rapeseed &Mustard_NN", 0.13361558627435705],
+    ["Saved_Model/Rapeseed &Mustard_XGB", 0.12785750504832882],
+    ["Saved_Model/Rapeseed &Mustard_GBM", 0.09860017553759326]
+  ],
+  "Redish": [
+    22219.726073104768,
+    ["Saved_Model/Redish_SVR", 0.011674717903432002],
+    ["Saved_Model/Redish_NN", 0.13682040540092844],
+    ["Saved_Model/Redish_XGB", 0.04158904647932313],
+    ["Saved_Model/Redish_GBM", 13.392863738557965]
+  ],
+  "Rice": [
+    0.5198803913217542,
+    ["Saved_Model/Rice_SVR", 0.5020871269550343],
+    ["Saved_Model/Rice_POLY", 0.7836181495602622],
+    ["Saved_Model/Rice_NN", 0.5344161003505167],
+    ["Saved_Model/Rice_XGB", 0.30524181678321594],
+    ["Saved_Model/Rice_GBM", 0.4740387629597423]
+  ],
+  "Ricebean (nagadal)": [
+    0.004132358700361846,
+    ["Saved_Model/Ricebean (nagadal)_SVR", 0.00023353295389779395],
+    ["Saved_Model/Ricebean (nagadal)_POLY", 0.0016961364606605947],
+    ["Saved_Model/Ricebean (nagadal)_NN", 0.018462954522873408],
+    ["Saved_Model/Ricebean (nagadal)_XGB", 3.0744609486316664e-5],
+    ["Saved_Model/Ricebean (nagadal)_GBM", 0.00023842495489111067]
+  ],
+  "Rubber": [
+    0.017902077557202804,
+    ["Saved_Model/Rubber_SVR", 0.01768595445123559],
+    ["Saved_Model/Rubber_POLY", 0.026519825263335867],
+    ["Saved_Model/Rubber_NN", 0.011426204247459897],
+    ["Saved_Model/Rubber_XGB", 0.00037672067615379337],
+    ["Saved_Model/Rubber_GBM", 0.033501683147828865]
+  ],
+  "Safflower": [
+    0.03913848718873597,
+    ["Saved_Model/Safflower_SVR", 0.04017931566697277],
+    ["Saved_Model/Safflower_POLY", 0.04402169102665396],
+    ["Saved_Model/Safflower_NN", 0.04325946771828359],
+    ["Saved_Model/Safflower_XGB", 0.035008779264313214],
+    ["Saved_Model/Safflower_GBM", 0.0332231822674563]
+  ],
+  "Samai": [
+    0.03468753705737152,
+    ["Saved_Model/Samai_SVR", 0.026614376086869923],
+    ["Saved_Model/Samai_POLY", 0.029151592552881293],
+    ["Saved_Model/Samai_NN", 0.06028017105913682],
+    ["Saved_Model/Samai_XGB", 0.023970711942383417],
+    ["Saved_Model/Samai_GBM", 0.03342083364558615]
+  ],
+  "Sannhamp": [
+    0.6163882566410691,
+    ["Saved_Model/Sannhamp_SVR", 0.5403946062728603],
+    ["Saved_Model/Sannhamp_POLY", 0.9670997104943494],
+    ["Saved_Model/Sannhamp_NN", 0.5870323697694334],
+    ["Saved_Model/Sannhamp_XGB", 0.5841579165996688],
+    ["Saved_Model/Sannhamp_GBM", 0.40325668006903354]
+  ],
+  "Sapota": [
+    3.223911685733877,
+    ["Saved_Model/Sapota_XGB", 0.7045204928790713],
+    ["Saved_Model/Sapota_GBM", 2.658593045587569]
+  ],
+  "Sesamum": [
+    0.32775994147432197,
+    ["Saved_Model/Sesamum_SVR", 0.029649864555603343],
+    ["Saved_Model/Sesamum_POLY", 0.36189131221321374],
+    ["Saved_Model/Sesamum_NN", 0.6018131578832419],
+    ["Saved_Model/Sesamum_XGB", 0.05612833451968877],
+    ["Saved_Model/Sesamum_GBM", 0.5893170381998621]
+  ],
+  "Small millets": [
+    0.39938870787413533,
+    ["Saved_Model/Small millets_SVR", 0.3641719103132066],
+    ["Saved_Model/Small millets_POLY", 0.3687839265858643],
+    ["Saved_Model/Small millets_NN", 0.3654512971849404],
+    ["Saved_Model/Small millets_XGB", 0.5379440791989972],
+    ["Saved_Model/Small millets_GBM", 0.3605923260876683]
+  ],
+  "Soyabean": [
+    0.22571983500489318,
+    ["Saved_Model/Soyabean_SVR", 0.24704358912856114],
+    ["Saved_Model/Soyabean_POLY", 0.2762228274674564],
+    ["Saved_Model/Soyabean_NN", 0.25559434330148423],
+    ["Saved_Model/Soyabean_XGB", 0.1737062812494265],
+    ["Saved_Model/Soyabean_GBM", 0.1760321338775377]
+  ],
+  "Sugarcane": [
+    3119233.856787247,
+    ["Saved_Model/Sugarcane_XGB", 572730.5402454006],
+    ["Saved_Model/Sugarcane_GBM", 1781910.5184306605]
+  ],
+  "Sunflower": [
+    0.18835153379918534,
+    ["Saved_Model/Sunflower_SVR", 0.13569378173174368],
+    ["Saved_Model/Sunflower_POLY", 0.17349646763285603],
+    ["Saved_Model/Sunflower_NN", 0.15605142506998768],
+    ["Saved_Model/Sunflower_XGB", 0.332118804022607],
+    ["Saved_Model/Sunflower_GBM", 0.14439719053873232]
+  ],
+  "Sweet potato": [
+    6.881776428468738,
+    ["Saved_Model/Sweet potato_XGB", 3.006323390874357],
+    ["Saved_Model/Sweet potato_GBM", 3.2992060593889887]
+  ],
+  "Tapioca": [
+    33.49006219416489,
+    ["Saved_Model/Tapioca_XGB", 10.273858980490491],
+    ["Saved_Model/Tapioca_GBM", 9.90577692142434]
+  ],
+  "Tea": [
+    1.642786323890143,
+    ["Saved_Model/Tea_NN", 1.19634271392318],
+    ["Saved_Model/Tea_XGB", 1.2239572827618619],
+    ["Saved_Model/Tea_GBM", 1.5513177948618453]
+  ],
+  "Tobacco": [
+    0.8557112229906456,
+    ["Saved_Model/Tobacco_SVR", 0.8707323582510093],
+    ["Saved_Model/Tobacco_NN", 0.7640247586494077],
+    ["Saved_Model/Tobacco_XGB", 0.29054494392148145],
+    ["Saved_Model/Tobacco_GBM", 0.29917731941030057]
+  ],
+  "Tomato": [
+    7.619128269648056,
+    ["Saved_Model/Tomato_XGB", 4.425269751992637],
+    ["Saved_Model/Tomato_GBM", 5.586926426771411]
+  ],
+  "Total foodgrain": [
+    0.17289953943484973,
+    ["Saved_Model/Total foodgrain_SVR", 0.11932862549704422],
+    ["Saved_Model/Total foodgrain_POLY", 0.14720648431119915],
+    ["Saved_Model/Total foodgrain_NN", 0.1705884525382006],
+    ["Saved_Model/Total foodgrain_XGB", 0.21160363938197738],
+    ["Saved_Model/Total foodgrain_GBM", 0.21577049544582722]
+  ],
+  "Turmeric": [
+    2.009383429222735,
+    ["Saved_Model/Turmeric_XGB", 0.8289001317251912],
+    ["Saved_Model/Turmeric_GBM", 0.9335534663870002]
+  ],
+  "Turnip": [
+    0.010685905823026521,
+    ["Saved_Model/Turnip_SVR", 0.009848003518613872],
+    ["Saved_Model/Turnip_POLY", 1.6888312324106795e-5],
+    ["Saved_Model/Turnip_NN", 0.009987051480679294],
+    ["Saved_Model/Turnip_XGB", 6.610885438558203e-5],
+    ["Saved_Model/Turnip_GBM", 0.03351147694912975]
+  ],
+  "Urad": [
+    0.10786921681505943,
+    ["Saved_Model/Urad_SVR", 0.10448269390608747],
+    ["Saved_Model/Urad_POLY", 0.11600138367808847],
+    ["Saved_Model/Urad_NN", 0.10612879039043868],
+    ["Saved_Model/Urad_XGB", 0.11574019919565834],
+    ["Saved_Model/Urad_GBM", 0.09699301690502411]
+  ],
+  "Varagu": [
+    0.09065443939949246,
+    ["Saved_Model/Varagu_SVR", 0.08751320738743636],
+    ["Saved_Model/Varagu_POLY", 0.09444588035732572],
+    ["Saved_Model/Varagu_NN", 0.07204610540743539],
+    ["Saved_Model/Varagu_XGB", 0.10585156187183199],
+    ["Saved_Model/Varagu_GBM", 0.09341544197343281]
+  ],
+  "Wheat": [
+    0.2795698761508116,
+    ["Saved_Model/Wheat_SVR", 0.32163706748978],
+    ["Saved_Model/Wheat_POLY", 0.5138308875786017],
+    ["Saved_Model/Wheat_NN", 0.2882126763018688],
+    ["Saved_Model/Wheat_XGB", 0.13158176946202108],
+    ["Saved_Model/Wheat_GBM", 0.14258697992178618]
+  ]
+}

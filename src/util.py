@@ -3,6 +3,7 @@ import json
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from ml.test import return_crops
 
 
 data = pd.read_csv("apy.csv")
@@ -13,8 +14,14 @@ def start_message(bot, chat_id, msg_id):
     \nAvailable Commands: 
     \n/weather - to know the current weather conditions
     \nWhat is the price of {} - to know the price of a commodity
-    \nWhat are the popular crops in {} - to visualise the amount of crops in specified area"""
+    \nWhat are the popular crops in {} - to visualise the amount of crops in specified area
+    \nWhat the the viable crops in {} - to get the most viable crops in this area """
     bot.sendMessage(chat_id=chat_id, text=bwelcome, reply_to_message_id=msg_id)
+
+
+def viableCrops(bot, chat_id, msg_id):
+    bot.sendMessage(chat_id=chat_id, text=return_crops(
+        "Tamil Nadu", "Vellore", "Rabi"))
 
 
 def sendMarketInfo(bot, chat_id, msg_id, text):

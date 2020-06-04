@@ -2,7 +2,8 @@ flask
 python-telegram-bot
 requests
 gunicorn
-# tensorflow
+xgboost
+scikit-learn
 pillow
 numpy
 pandas
