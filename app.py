@@ -1,5 +1,5 @@
 from flask import Flask, request
-from util import sendMarketInfo, temperature_api, default_message, start_message, get_chart
+from util import sendMarketInfo, temperature_api, default_message, start_message, get_chart, viableCrops
 
 import re
 import os
@@ -49,6 +49,8 @@ def respond():
             dist = text.strip().split(" ")[6]
             dist = dist.upper()
             get_chart(bot, chat_id, msg_id, dist, 10)
+        elif text.lower().startswith("what are the viable crops"):
+            viableCrops(bot, chat_id, msg_id)
         else:
             default_message(bot, chat_id, msg_id)
 

@@ -137,7 +137,7 @@ def start_message(bot, chat_id, msg_id):
     \n/weather - to know the current weather conditions
     \nWhat is the price of {} - to know the price of a commodity
     \nWhat are the popular crops in {} - to visualise the amount of crops in specified area
-    \nWhat the the viable crops in {} - to get the most viable crops in this area """
+    \nWhat are the viable crops in {} - to get the most viable crops in this area """
     bot.sendMessage(chat_id=chat_id, text=bwelcome, reply_to_message_id=msg_id)
 
 
