@@ -1,5 +1,5 @@
 from flask import Flask, request
-from src.util import sendMarketInfo, temperature_api, default_message, start_message, get_chart
+from util import sendMarketInfo, temperature_api, default_message, start_message, get_chart
 
 import re
 import os
