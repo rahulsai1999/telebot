@@ -10,6 +10,35 @@ import pickle
 from sklearn.preprocessing import PolynomialFeatures
 import sys
 import os
+from Adafruit_IO import Client, Feed, Data, RequestError
+
+aio = Client("noneuser2183", "c9b57af2d82e482892bb7a10b971d481")
+
+data = pd.read_csv("apy.csv")
+
+
+def post_status(bot, chat_id, msg_id):
+    try:
+        temp = aio.feeds('farm-manage')
+    except RequestError:
+        feed = Feed(name="farm-manage")
+        temp = aio.create_feed(feed)
+
+    aio.send_data(temp.key, "Pump Operation Normal On")
+    bot.sendMessage(chat_id=chat_id, text="Pump Turned On",
+                    reply_to_message_id=msg_id)
+
+
+def post_status2(bot, chat_id, msg_id):
+    try:
+        temp = aio.feeds('farm-manage')
+    except RequestError:
+        feed = Feed(name="farm-manage")
+        temp = aio.create_feed(feed)
+
+    aio.send_data(temp.key, "Pump Operation Normal Off")
+    bot.sendMessage(chat_id=chat_id, text="Pump Turned Off",
+                    reply_to_message_id=msg_id)
 
 
 def return_crops(state, dis, season):
@@ -128,13 +157,12 @@ def return_crops(state, dis, season):
     return returnstr
 
 
-data = pd.read_csv("apy.csv")
-
-
 def start_message(bot, chat_id, msg_id):
     bwelcome = """Welcome to Krishi bot, the bot can help in many ways.
-    \nAvailable Commands: 
+    \nAvailable Commands:
     \n/weather - to know the current weather conditions
+    \n/pumpOn - to turn on the pump 
+    \n/pumpOff - to turn off the pump
     \nWhat is the price of {} - to know the price of a commodity
     \nWhat are the popular crops in {} - to visualise the amount of crops in specified area
     \nWhat are the viable crops in {} - to get the most viable crops in this area """
@@ -143,7 +171,7 @@ def start_message(bot, chat_id, msg_id):
 
 def viableCrops(bot, chat_id, msg_id):
     bot.sendMessage(chat_id=chat_id, text=return_crops(
-        "Tamil Nadu", "Vellore", "Rabi"))
+        "Chhattisgarh", "Raipur", "Rabi"))
 
 
 def sendMarketInfo(bot, chat_id, msg_id, text):
@@ -163,7 +191,7 @@ def sendMarketInfo(bot, chat_id, msg_id, text):
 
 
 def temperature_api(bot, chat_id, msg_id):
-    url = "https://api.openweathermap.org/data/2.5/weather?q=Vellore&appid=e64631cab1fe775900d1a6a2b809eda6"
+    url = "https://api.openweathermap.org/data/2.5/weather?q=Raipur&appid=e64631cab1fe775900d1a6a2b809eda6"
     r = requests.get(url)
     r = r.json()
     weather = format(int(r["main"]["temp"])-273.16, '.1f') + chr(176) + "C"
