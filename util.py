@@ -13,10 +13,10 @@ import os
 
 
 def return_crops(state, dis, season):
-    state_dis_path = os.path.join(os.getcwd(), "JSON\\state_dis_loc.json")
-    seasonwise_path = os.path.join(os.getcwd(), "JSON\\SeasonwiseCrops.json")
-    savedModel_path = os.path.join(os.getcwd(), "JSON\\SavedModelInfo.json")
-    produceInfo_path = os.path.join(os.getcwd(), "JSON\\ProduceInfo.json")
+    state_dis_path = os.path.join(os.getcwd(), "JSON/state_dis_loc.json")
+    seasonwise_path = os.path.join(os.getcwd(), "JSON/SeasonwiseCrops.json")
+    savedModel_path = os.path.join(os.getcwd(), "JSON/SavedModelInfo.json")
+    produceInfo_path = os.path.join(os.getcwd(), "JSON/ProduceInfo.json")
 
     with open(state_dis_path) as json_file:
         StateDisList = json.load(json_file)
