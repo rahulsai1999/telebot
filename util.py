@@ -169,10 +169,10 @@ def temperature_api(bot, chat_id, msg_id):
     r = r.json()
     weather = format(int(r["main"]["temp"])-273.16, '.1f') + chr(176) + "C"
     parameters = ["Location: ", "Current Temperature: ",
-                  "Humidity: ", "Description: ", "Elevation: ", "Pressure: "]
+                  "Humidity: ", "Description: ", "Pressure: "]
     actuals = [str(r["name"]), weather, str(
-        r["main"]["humidity"]), str(r["weather"][0]["description"]).title(), str(r["main"]["grnd_level"]), str(r["main"]["pressure"])]
-    units = ["", "", "%", "", "m", "psi"]
+        r["main"]["humidity"]), str(r["weather"][0]["description"]).title(), str(r["main"]["pressure"])]
+    units = ["", "", "%", "", "psi"]
 
     fin = ""
     for i in range(len(parameters)):
