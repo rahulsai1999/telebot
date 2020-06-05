@@ -182,7 +182,7 @@ def temperature_api(bot, chat_id, msg_id):
 
 
 def get_chart(bot, chat_id, msg_id, district, limit):
-    state = data[(data['District_Name'] == district)
+    state = data[(data['District_Name'] == "Kanchipuram")
                  & (data["Crop_Year"] == 2013)]
     state = state.fillna(0)
 
