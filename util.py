@@ -11,8 +11,6 @@ from sklearn.preprocessing import PolynomialFeatures
 import sys
 import os
 
-data = pd.read_csv("apy.csv")
-
 
 def return_crops(state, dis, season):
     state_dis_path = os.path.join(os.getcwd(), "JSON/state_dis_loc.json")
@@ -181,8 +179,12 @@ def temperature_api(bot, chat_id, msg_id):
     bot.sendMessage(chat_id=chat_id, text=fin, reply_to_message_id=msg_id)
 
 
+data = pd.read_csv("apy.csv")
+
+
 def get_chart(bot, chat_id, msg_id, district, limit):
-    state = data[(data['District_Name'] == "Kanchipuram")
+
+    state = data[(data['District_Name'] == district)
                  & (data["Crop_Year"] == 2013)]
     state = state.fillna(0)
 
