@@ -10,35 +10,8 @@ import pickle
 from sklearn.preprocessing import PolynomialFeatures
 import sys
 import os
-from Adafruit_IO import Client, Feed, Data, RequestError
-
-aio = Client("noneuser2183", "c9b57af2d82e482892bb7a10b971d481")
 
 data = pd.read_csv("apy.csv")
-
-
-def post_status(bot, chat_id, msg_id):
-    try:
-        temp = aio.feeds('farm-manage')
-    except RequestError:
-        feed = Feed(name="farm-manage")
-        temp = aio.create_feed(feed)
-
-    aio.send_data(temp.key, "Pump Operation Normal On")
-    bot.sendMessage(chat_id=chat_id, text="Pump Turned On",
-                    reply_to_message_id=msg_id)
-
-
-def post_status2(bot, chat_id, msg_id):
-    try:
-        temp = aio.feeds('farm-manage')
-    except RequestError:
-        feed = Feed(name="farm-manage")
-        temp = aio.create_feed(feed)
-
-    aio.send_data(temp.key, "Pump Operation Normal Off")
-    bot.sendMessage(chat_id=chat_id, text="Pump Turned Off",
-                    reply_to_message_id=msg_id)
 
 
 def return_crops(state, dis, season):
@@ -171,7 +144,7 @@ def start_message(bot, chat_id, msg_id):
 
 def viableCrops(bot, chat_id, msg_id):
     bot.sendMessage(chat_id=chat_id, text=return_crops(
-        "Chhattisgarh", "Raipur", "Rabi"))
+        "Chhattisgarh", "Raipur", "Summer"))
 
 
 def sendMarketInfo(bot, chat_id, msg_id, text):

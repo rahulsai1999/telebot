@@ -9,4 +9,3 @@ numpy
 pandas
 matplotlib
 lightgbm
-adafruit-io

@@ -1,5 +1,5 @@
 from flask import Flask, request
-from util import sendMarketInfo, temperature_api, default_message, start_message, get_chart, viableCrops, postStatus, postStatus2
+from util import sendMarketInfo, temperature_api, default_message, start_message, get_chart, viableCrops
 
 import re
 import os
@@ -41,12 +41,6 @@ def respond():
 
         elif text == "/weather":
             temperature_api(bot, chat_id, msg_id)
-
-        elif text == "/pumpOff":
-            postStatus2(bot, chat_id, msg_id)
-
-        elif text == "/pumpOn":
-            postStatus(bot, chat_id, msg_id)
 
         elif text.lower().startswith("what is the price of"):
             sendMarketInfo(bot, chat_id, msg_id, text)
