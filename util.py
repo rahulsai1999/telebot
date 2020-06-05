@@ -144,7 +144,7 @@ def start_message(bot, chat_id, msg_id):
 
 def viableCrops(bot, chat_id, msg_id):
     bot.sendMessage(chat_id=chat_id, text=return_crops(
-        "Chhattisgarh", "Raipur", "Summer"))
+        "Tamil Nadu", "Kanchipuram", "Summer"))
 
 
 def sendMarketInfo(bot, chat_id, msg_id, text):
@@ -164,7 +164,7 @@ def sendMarketInfo(bot, chat_id, msg_id, text):
 
 
 def temperature_api(bot, chat_id, msg_id):
-    url = "https://api.openweathermap.org/data/2.5/weather?q=Raipur&appid=e64631cab1fe775900d1a6a2b809eda6"
+    url = "https://api.openweathermap.org/data/2.5/weather?q=Chennai&appid=e64631cab1fe775900d1a6a2b809eda6"
     r = requests.get(url)
     r = r.json()
     weather = format(int(r["main"]["temp"])-273.16, '.1f') + chr(176) + "C"
