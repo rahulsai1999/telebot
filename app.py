@@ -28,7 +28,7 @@ def respond():
         file_id = update.message.photo[-1].file_id
         x = bot.getFile(file_id=file_id)
         bot.sendMessage(
-            chat_id=chat_id, text="Aristolochia bractiata - 78.5%", reply_to_message_id=msg_id)
+            chat_id=chat_id, text="Species: Aristolochia albida\nPrecision: 67%\nRemoval Method: Physical", reply_to_message_id=msg_id)
 
     # text based processing done in this block
     else:
@@ -41,15 +41,15 @@ def respond():
 
         elif text == "/pumpOn":
             bot.sendMessage(chat_id=chat_id,
-                            message="Turning on pump...", reply_to=msg_id)
+                            text="Turning on pump...", reply_to=msg_id)
             bot.sendMessage(chat_id=chat_id,
-                            message="Pump Status : Operational", reply_to=msg_id)
+                            text="Pump Status : Operational", reply_to=msg_id)
 
         elif text == "/pumpOff":
             bot.sendMessage(chat_id=chat_id,
-                            message="Turning off pump...", reply_to=msg_id)
+                            text="Turning off pump...", reply_to=msg_id)
             bot.sendMessage(chat_id=chat_id,
-                            message="Pump Status: Non-Operational", reply_to=msg_id)
+                            text="Pump Status: Non-Operational", reply_to=msg_id)
 
         elif text == "/weather":
             temperature_api(bot, chat_id, msg_id)

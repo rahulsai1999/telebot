@@ -183,7 +183,6 @@ data = pd.read_csv("apy.csv")
 
 
 def get_chart(bot, chat_id, msg_id, district, limit):
-
     state = data[(data['District_Name'] == district)
                  & (data["Crop_Year"] == 2013)]
     state = state.fillna(0)
